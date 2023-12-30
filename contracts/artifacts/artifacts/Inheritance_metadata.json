@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createNewToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20_Token_Sale.sol/Example_Modifiers_Inheritance.sol": "Inheritance"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20_Token_Sale.sol/Example_Modifiers_Inheritance.sol": {
+			"keccak256": "0xf6e10fa40a4f9385ccb5b2f11683d6c2aa0587ee03240aa459d889bd206886f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d191a973eae15613203b4a2843efa91cceadc0f88969e4ab93214b8f239c8952",
+				"dweb:/ipfs/QmTQqaL5LAM4iGeJeD2oWFpxmTU7SZq5zkfEEELoGJP1bS"
+			]
+		},
+		"contracts/ERC20_Token_Sale.sol/Ownable.sol": {
+			"keccak256": "0x83290a94e5ca0f57b6dfbe220e3803f7916280097e17cae6e392cebc7e3e00d7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://112ec6487474b7dcebc3f8581d8525f2796a0914e2abcbf53819e39780943319",
+				"dweb:/ipfs/QmQkrusAfKEaPicnyoNXoXZUMF5bxV9YQ6Ug3KuAifRxSP"
+			]
+		}
+	},
+	"version": 1
+}

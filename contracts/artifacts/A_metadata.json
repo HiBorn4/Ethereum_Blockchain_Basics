@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "SomeEvent",
+				"type": "event"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "New Fallback Function and Receive function for 0.6.0 only ",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fallback&Receive.sol": "A"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fallback&Receive.sol": {
+			"keccak256": "0xcddd23d36eedaa061932185fe21936e330e2f706fc339075d129fcdd029618e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://345174baa0930a7c9a12011005f4d0365d862edd896a9518dddf8b6f6cfada97",
+				"dweb:/ipfs/QmXfbS7VQrKfgMPiqL8NoWDan1N2qyq5VLJrX6Ud9Dnn7K"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "startInDays",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20_Token_Sale.sol/Sample_Units.sol": "SampleUnits"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20_Token_Sale.sol/Sample_Units.sol": {
+			"keccak256": "0xe22f5c616a7f38671c64be1fd754c8c0ebe691b356e285f4b21a2feb43bed5f3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0611f9a5d8f532644c5a9bf80bbe5c768903b9a5b6c4045ada38a2d208466dc0",
+				"dweb:/ipfs/QmWdfQE958r3hGkos2HhkVUzyPos3NVHUhwcEJLfZ7VbjE"
+			]
+		}
+	},
+	"version": 1
+}

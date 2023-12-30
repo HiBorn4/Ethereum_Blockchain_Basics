@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newUint",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20_Token_Sale.sol/Sample_Debugging.sol": "MyContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20_Token_Sale.sol/Sample_Debugging.sol": {
+			"keccak256": "0x7ec64ebb8d986c1f7daf9b2d2606da180484c4414b94eb65bd6d41f5cbfe0c52",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8a04c7de51d1e2832bb5fcbbba5702bd1208b9e4c6c9d10d69fd44c311121ab",
+				"dweb:/ipfs/QmV995ro8vkV4KyZiHAzY8YnkbNWVhwSWTMucFSrjUFzfh"
+			]
+		}
+	},
+	"version": 1
+}

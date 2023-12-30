@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_myString",
+						"type": "string"
+					}
+				],
+				"name": "MyEvent",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "funA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Override.sol": "C"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Override.sol": {
+			"keccak256": "0x2f9b46cf74b1cf29025d31221d946697c55815f6d1c037c7647fdf34bd612b09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://969e182ed1e2cfa60098f06746db372e570fdf722bec305bb25050d47c80ebe9",
+				"dweb:/ipfs/Qmf5seJbQScWqQEAYezuYiraxHRZyrpWFUBtiXDCAEKDv2"
+			]
+		}
+	},
+	"version": 1
+}

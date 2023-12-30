@@ -1,0 +1,69 @@
+{
+	"id": "20be569b24a43d75c2920802bb7d06f9",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.22",
+	"solcLongVersion": "0.8.22+commit.4fc1097e",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/Example_Exceptions.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.22;\n\n\n// contract ExampleExceptionRequire {\n\n//     mapping (address => uint) public balanceReceived;\n\n//     function receiveMoney() public payable {\n//         balanceReceived[msg.sender] += msg.value;\n//     }\n\n//     function withdrawMoney(address payable _to, uint _amount) public {\n//         require (_amount <= balanceReceived[msg.sender], \"Not enough funds, aborting!\"); \n//         balanceReceived[msg.sender] -= _amount;\n//         _to.transfer(_amount);\n        \n//     }\n\n\n// }\n\n// contract ExampleExceptionAssert {\n\n//     mapping (address => uint8) public balanceReceived;\n\n//     function receiveMoney() public payable {\n//         assert(msg.value == uint8(msg.value));\n//         balanceReceived[msg.sender] += uint8(msg.value);\n//     }\n\n//     function withdrawMoney(address payable _to, uint8 _amount) public {\n//         require (_amount <= balanceReceived[msg.sender], \"Not enough funds, aborting!\"); \n//         balanceReceived[msg.sender] -= _amount;\n//         _to.transfer(_amount);\n        \n//     }\n\n\n// }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/Example_Exceptions.sol": {
+				"ast": {
+					"absolutePath": "contracts/Example_Exceptions.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".22"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:24:0"
+						}
+					],
+					"src": "32:1055:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
